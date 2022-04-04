@@ -1,0 +1,143 @@
+/* DEFINE OS ESTILOS DO CORPO DA PÁGINA */
+body{
+    background-image: linear-gradient(to right, rgb(13, 111, 168), rgb(93, 32, 163));
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+/* ALTERA O ESTILO DA BARRA DE ROLAGEM */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: #1984e9;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background: #e4cbf0;
+    border-radius: 30px;
+}
+
+/* CAIXA DO TÍTULO */
+.box_titulo{  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-image: linear-gradient(rgb(231, 219, 219), rgb(82, 183, 223));
+    font-family: 'Courier New';
+    margin: -8px -8px 0 -8px;
+    height: 50px;
+}
+
+/* TÍTULO DA PÁGINA */
+.titulo{
+    color: rgb(106, 35, 126);
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 160%;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+/* CAIXA DO MENU */
+.menu {
+    margin: 0 auto;
+    width: 300px;
+    height: 10px;
+    position: relative;
+    padding: 15px 20px;
+    background-image: linear-gradient(rgb(252, 250, 250),rgb(46, 14, 136));
+}
+
+/* ESTILISA OS LINKS DO MENU */
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 7%;
+}
+
+/* ALTERA AS CONFIGURAÇÕES DO MENU E DOS LINKS QUANDO A TELA FOR REDIMENSIONADA */
+@media(min-width: 600px){
+    a{
+        font-size: 25px;
+    }
+    .menu{
+        width: 620px;
+        height: 15px;
+    }
+}
+
+/* DEFINE AS CONFIGURAÇÕES DA DIV QUE RECEBERA OS CONTEÚDOS DA PÁGINA */
+.conteudo_pag{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;  
+  text-align: justify;
+  overflow: auto;
+  padding-right: 10px ;
+
+}
+
+/************************************* PÁGINA DE LOGIN ***********************************/
+
+/* DEFINE AS CONFIGURAÇÕES DA TELA DE LOGIN */
+.login {
+    width: 280px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    font-size: 20px;
+
+  }
+
+/* ESTILO DO BOTÃO ENVIAR/CRIAR */
+.btn_submit{
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* DIV UTILIZADA PARA CENTRALIZAR O BOTÃO DA TELA DE LOGIN */
+#tab_login_btn{
+    margin: 0 auto;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+
+/******************************************** PÁGINA DE REGISTRO ******************************************/
+
+/* ESTILO DA PÁGINA DE REGISTRO */
+.form_registro{
+    width: 60%;
+    max-width: 300px;
+    position: relative;
+    margin: 5% auto;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    font-size: 20px;  
+}
+
+/* ESTILO DO TÍTULO DA PÁGINA DE REGISTRO */
+#form_registro_titulo{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+/* DEFINE O ESPAÇAMENTO ENTRE AS LINHAS DO FORMULÁRIO */
+.form_esp_linha{
+    margin-bottom: 15px;
+}
+
+/* CENTRALIZA O BOTÃO "CRIAR" */
+#form_btnCriar{
+    margin: 0 auto;
+}
+/*---------------------------------------------------------------------------------------------------------*/
