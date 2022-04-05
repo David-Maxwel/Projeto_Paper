@@ -10,6 +10,9 @@
                 <td><input type="password" required></td>
             </tr>
         </table> 
+        <table id="tab_login_rec_senha">
+            <th><a href="#rec_senha">Esqueci minha senha!</a></th>
+        </table>
         <br>
         <table id="tab_login_btn">
             <tr>

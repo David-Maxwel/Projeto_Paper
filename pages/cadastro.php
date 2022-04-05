@@ -1,5 +1,5 @@
 <div >
-    <header id="form_registro_titulo">
+    <header class="form_registro_titulo">
         <h2>Cadastro</h2>
     </header>
     <div class="form_registro">
