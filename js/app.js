@@ -4,8 +4,7 @@
 var app = angular.module("app", ["ngRoute"]); 
  
 
-// Configura as rotas de navegação 
-// da aplicação Web 
+// Configura as rotas de navegação da aplicação Web 
 app.config(function($routeProvider)
 { 
     $routeProvider.when("/", {  
