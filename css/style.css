@@ -4,6 +4,7 @@
     --font-tit-pag: clamp(1rem, 3vw + 0.1rem, 1.7rem);
     --font-texto: clamp(0.6rem, 2vw + 0.1rem, 1rem);
     --font-link: clamp(0.8rem, 2vw + 0.1rem, 1.5rem);
+    --text-box-wid: clamp(16rem, 20vw + 0.1rem, 40rem);
 }
 /* DEFINE A FONTE PARA TODO O PROJETO */
 *{
@@ -127,8 +128,8 @@ body{
 
 /* ESTILO DA PÁGINA DE REGISTRO */
 .form_registro{
-    width: 60%;
-    max-width: 300px;
+    width: 80%;
+    max-width: 400px;
     position: relative;
     margin: 5% auto;
     padding: 15px 20px;
@@ -146,10 +147,43 @@ body{
 }
 
 /* DEFINE O ESPAÇAMENTO ENTRE AS LINHAS DO FORMULÁRIO */
-.form_esp_linha{
+.form_grande{
     margin-bottom: 15px;
 }
-
+.form_grande input{
+    width: 250px;
+}
+.form_medio{
+    margin-bottom: 15px;
+}
+.form_medio input{
+    width: 110px;
+}
+.form_cent_item{
+    margin: 0 auto;
+    font-size: var(--font-texto);
+    margin-bottom: 15px;
+}
+.form_peq{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: var(--font-texto);
+}
+.form_peq input{
+    width: 40px;
+}
+.form_cent_text{
+    font-size: var(--font-texto);
+    text-align: center;
+}
+form textarea{
+    width: var(--text-box-wid);
+    resize: none;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}    
 /* CENTRALIZA O BOTÃO "CRIAR" */
 #form_btnCriar{
     margin: 0 auto;
