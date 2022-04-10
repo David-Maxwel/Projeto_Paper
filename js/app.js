@@ -15,6 +15,12 @@ app.config(function($routeProvider)
         templateUrl:"pages/cadastro.php" 
     }).when("/rec_senha", { 
         templateUrl:"pages/rec_senha.php" 
+    }).when("/sobre", { 
+        templateUrl:"pages/sobre.php" 
+    }).when("/vagas", { 
+        templateUrl:"pages/vagas.php" 
+    }).when("/dicas", { 
+        templateUrl:"pages/dicas.php" 
     }).otherwise({ 
         redirectTo: "/" 
     }); 
