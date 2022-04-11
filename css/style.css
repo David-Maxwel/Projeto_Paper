@@ -76,12 +76,12 @@ body{
 
 /* DEFINE AS CONFIGURAÇÕES DA DIV QUE RECEBERA OS CONTEÚDOS DA PÁGINA */
 .conteudo_pag{
-  width: 80%;
-  height:100vh;
-  margin: 0 auto;  
-  text-align: justify;
-  overflow: auto;
-  padding-right: 10px ;
+    width: clamp(30rem, 80vw + 0.1rem, 80vw);
+    height: 85vh;
+    margin: 0 auto;  
+    text-align: justify;
+    overflow: auto;
+    padding-right: 10px ;
 }
 
 /************************************* PÁGINA DE LOGIN ***********************************/
@@ -105,6 +105,7 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+
 #tab_login_rec_senha{
     margin-left: 32%;
 }
@@ -163,7 +164,6 @@ body{
 .form_cent_item{
     margin: 0 auto;
     font-size: var(--font-texto);
-    margin-bottom: 15px;
 }
 .form_peq{
     margin: 0 auto;
@@ -189,5 +189,57 @@ form textarea{
 #form_btnCriar{
     margin: 0 auto;
     margin-bottom: 25px;
+
 }
 /*---------------------------------------------------------------------------------------------------------*/
+
+/******************************************** PÁGINA DE REGISTRO ******************************************/
+.vagas_box{
+    
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin-top: 20%;
+    border-radius: 40px;
+    padding: 10px;
+}
+.form_vagas{
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.vagas_box input{
+    width: 20vw;
+    border-radius: 15px;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+.dados_cliente{
+    margin: 0 auto;
+    background-color: #ffff;
+    margin-top: 1%;
+}
+.dados_cliente input{
+    border: none;
+    color: #000;
+    background-color: #ffff;
+    text-align: center;
+    font-size: var(--font-link);
+}
+.dados_cliente img{
+    width: 100px;
+}
+#dados_cliente_nome{
+    font-weight: bold;
+    width: 60vw;
+    margin: 0 auto;
+    font-size: clamp(1rem, 3.2vw + 0.1rem, 2.5rem);
+    text-align: center;
+}
+#meses{
+    width: 17vw;
+}
+#cpf{
+    width: 25vw;
+}
+#tel{
+    width: 25vw;
+}

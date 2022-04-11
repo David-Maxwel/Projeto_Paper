@@ -14,6 +14,14 @@
             </table>
             <table class="form_medio" >
                 <tr>
+                    <th>CPF</th>
+                </tr> 
+                <tr>
+                    <td><input type="tel" maxlength="11" minlength="11" required></td>
+                </tr> 
+            </table>
+            <table class="form_medio" >
+                <tr>
                     <th>Data de Nascimento</th>
                 </tr> 
                 <tr>
@@ -41,7 +49,7 @@
                     <th>Senha</th>                   
                 </tr>
                 <tr>
-                    <td><input type="password" required></td>
+                    <td><input type="password" id="senha" required></td>
                 </tr>
             </table>
             <table class="form_medio">
@@ -49,9 +57,10 @@
                     <th>Confirmar Senha</th>                   
                 </tr>
                 <tr>
-                    <td><input type="password" required></td>
+                    <td><input type="password" id="conf_senha" required></td>
                 </tr>
             </table>
+            <br>
             <div class="form_cent_text">
                 <h2>Qual lado da aplicação você desenvolve?</h2>
             </div>                       
@@ -65,6 +74,7 @@
                     <td>Fullstack</td>
                 </tr>
             </table>
+            <br>
             <div class="form_cent_text">
                 <h2>Selecione as tecnologias que você possui experiência:</h2>
             </div>                       
@@ -108,6 +118,7 @@
                     <td>Outras</td>
                 </tr>
             </table>
+            <br>
             <table class="form_peq">
                 <tr>
                     <th>Senioridade</td>
@@ -124,14 +135,24 @@
                     <td><input type="tel" placeholder="meses"  maxlength="3" required></td>
                 </tr>
             </table>
+            <br>
+            <div class="form_cent_text">
+                <h2>Anexar Currículo</h2>
+            </div>
+            <table class="form_cent_item">
+                <tr>
+                    <th><input type="file"></th>
+                </tr>
+            </table>
+            <br>
             <div class="form_cent_text">
                 <h2>Conte-nos um pouco sobre você</h2>
             </div>
             <textarea name="" id="" rows="10"></textarea>
-            
+            <br>
             <table id="form_btnCriar" class="form_esp_linha">
                 <tr>
-                    <td><input class="btn_submit" type="submit" value="Criar"></td>
+                    <td><input class="btn_submit" type="submit" value="Cadastrar" onclick="return validarSenha()"></td>
                 </tr>
             </table>
         </form>

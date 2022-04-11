@@ -1,10 +1,10 @@
-<div>
+<div class="vagas_box">
     <form action="">
-        <table>
-            <tr>
-                <td>Pesquisa</td>
-                <td>Área</td>
-                <td>Estado</td>
+        <table class="form_vagas">
+            <tr class="form_registro_titulo">
+                <th>Pesquisa</th>
+                <th>Área</th>
+                <th>Estado</th>
             </tr>
             <tr>
                 <td><input type="search"></td>
@@ -48,10 +48,13 @@
                         <option value="to">Tocantins</option>
                         <option value="remoto">100% remoto</option>
                     </select>
-                </td>
-                <td><input type="submit" value="Pesquisar"></td>
-
+                </td>               
             </tr>
         </table>
+        <table id="form_btnCriar" class="form_esp_linha">
+                <tr>
+                    <td><input class="btn_submit" type="submit" value="Pesquisar"></td>
+                </tr>
+            </table>
     </form>
 </div>
