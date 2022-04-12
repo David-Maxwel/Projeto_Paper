@@ -33,7 +33,7 @@ function validarSenha() {
     var s1 = senha1.value;
     var s2 = senha2.value;
     if (s1 == s2) {
-      alert("Usuário Cadastrado!");
+      
       return true;
     } else {
       alert("Senhas não conferem. Verifique o valor digitado.");

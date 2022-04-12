@@ -1,10 +1,19 @@
+<div>
+    <table class="cliente_sair_editar">
+        <tr>
+            <td><button><a href="">Editar</a></button></td>
+            <td></td>
+            <td><button><a href="#login">Sair</a></button></td>
+        </tr>
+    </table>
+</div>
 <table class="dados_cliente">
     <tr>
         <td><img src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Download-Free-PNG.png" alt="perfil"></td>
         <td>
             <table>
                 <tr>
-                    <th><input id="dados_cliente_nome" type="text" name="nome" value="João Maria dos Santos" disabled></th>               
+                    <th><input id="dados_cliente_nome" type="text" name="nome" value="João Maria dos Santos" disabled></th>          
                 </tr>
             </table>
             <table>

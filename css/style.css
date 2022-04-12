@@ -212,6 +212,28 @@ form textarea{
     border-radius: 15px;
 }
 /*---------------------------------------------------------------------------------------------------------*/
+
+/******************************************** PÁGINA DO CLIENTE ******************************************/
+.cliente_sair_editar a{
+    text-decoration:  none;
+    font-size: var(--font-link);
+    
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-weight: bold;
+}
+.cliente_sair_editar button{
+    background-color: #000;
+    border: none;
+    border-radius: 12px;
+    margin-right: 2vw;
+}
+.cliente_sair_editar{
+    float: right;
+    margin-right: 1vw;
+
+}
+
 .dados_cliente{
     margin: 0 auto;
     background-color: #ffff;
