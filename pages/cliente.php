@@ -3,7 +3,7 @@
         <tr>
             <td><button><a href="">Editar</a></button></td>
             <td></td>
-            <td><button><a href="#login">Sair</a></button></td>
+            <td><button><a href="#/">Sair</a></button></td>
         </tr>
     </table>
 </div>

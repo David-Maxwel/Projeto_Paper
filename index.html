@@ -19,18 +19,19 @@
             </div>          
         </div>
         <!--div onde contem a box do menu e todos os seus links-->
-        <div class="menu">
-            <div id="tab_menu">
-                <table>
-                    <tr>                 
-                        <a href="#sobre">Quem Somos</a>
-                        <a href="#cadastro">Cadastro</a>
-                        <a href="#login">Login</a>
-                        <a href="#vagas">Buscar Vagas</a>
-                    </tr>
-                </table>
-            </div>
-        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#sobre" class="active">Quem Somos</a>
+            <a href="#cadastro">Cadastro</a>
+            <a href="#login">Login</a>
+            <a href="#vagas">Buscar Vagas</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+                </ul>
+            </div>        
+        </nav>
         <!--Div principal, onde será carregado as demais páginas.-->
         <div class="conteudo_pag" ng-view>
 
