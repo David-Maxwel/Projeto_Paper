@@ -12,20 +12,15 @@
     </head>
     <!--Inicia a tag body, e aponta o ng-app para a diretiva do Angular criada no JS-->
     <body ng-app ="app">
-        <!--Define a caixa do título e referencia o titulo para a home page.-->
-        <div class="box_titulo">
-            <div id="titulo">
-                <a href="#/" class="titulo">Nome da Empresa</a>
-            </div>          
-        </div>
         <!--div onde contem a box do menu e todos os seus links-->
         <div class="topnav" id="myTopnav">
-            <a href="#sobre" class="active">Quem Somos</a>
+            <a href="#/" class="active">Logo</a>
+            <a href="#sobre">Quem Somos</a>
             <a href="#cadastro">Cadastro</a>
             <a href="#login">Login</a>
             <a href="#vagas">Buscar Vagas</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="">
+                <img id="img_menu" src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="">
               <i class="fa fa-bars"></i>
             </a>
           </div>
