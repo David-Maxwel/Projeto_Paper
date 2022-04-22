@@ -3,11 +3,11 @@
         <table class="form_vagas">
             <tr class="form_registro_titulo">
                 <th>Pesquisa</th>
-                <th>Área</th>
+                <th>Tipo</th>
                 <th>Estado</th>
             </tr>
             <tr>
-                <td><input type="search"></td>
+                <td><input placeholder="..." type="search"></td>
                 <td>
                     <select name="" id="">
                         <option value="todos">Todos</option>

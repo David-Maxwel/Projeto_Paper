@@ -13,7 +13,7 @@
 
 /* DEFINE OS ESTILOS DO CORPO DA PÁGINA */
 body{
-    background-image: linear-gradient(to right, rgb(13, 111, 168), rgb(93, 32, 163));
+    background-image: linear-gradient(to right, rgb(219, 226, 239),rgb(249, 247, 247));
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
 }
@@ -23,55 +23,63 @@ body{
     width: 5px;
 }
 ::-webkit-scrollbar-track{
-    background: #1984e9;
+    background: rgb(219, 226, 239);
     border-radius: 30px;
 }
 ::-webkit-scrollbar-thumb{
-    background: #e4cbf0;
+    background: rgb(63, 114, 175);
     border-radius: 30px;
 }
 
 
-/* BARRA DE MENU */
+/************************************* BARRA DE MENU ***********************************/
 #img_menu{
     width: 14px;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(17, 45, 78);
     margin: -8px -8px 0 -8px;
   }
   
 .topnav a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
 }
 
 .topnav a:hover {
-background-color: #ddd;
-color: black;
+    background-color: rgb(219, 226, 239);
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 12px 15px;
 }
 
 .topnav a.active {
-background-color: #0362dd;
-color: white;
+    background-color: rgb(63, 114, 175);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.topnav a.active:hover {
+    color: rgb(255, 255, 255);
 }
 
 .topnav .icon {
-display: none;
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
-.topnav a:not(:first-child) {display: none;}
-.topnav a.icon {
-    float: right;
-    display: block;
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
 }
 }
 
@@ -88,34 +96,13 @@ display: none;
         text-align: left;
     }
 }
+/*************************************************************************************************/
 
-
-
-/* CAIXA DO MENU */
-/*.menu {
-    margin: 0 -8px;
-    height: 22px;
-    position: relative;
-    padding: 5px 20px;
-    background-image: linear-gradient(rgb(252, 250, 250),rgb(46, 14, 136));
-}
-
-/* ESTILISA OS LINKS DO MENU */
-/*.menu a{
-    text-decoration: none;
-    color: white; 
-    font-size: var(--font-link);
-    margin: 0 3% ;
-}*/
-/* CENTRALIZA OS ITENS DO MENU*/
-#tab_menu{
-    text-align: center;
-}
 
 /* DEFINE AS CONFIGURAÇÕES DA DIV QUE RECEBERA OS CONTEÚDOS DA PÁGINA */
 .conteudo_pag{
-    width: clamp(30rem, 80vw + 0.1rem, 80vw);
-    height: 85vh;
+    width: 85vw;
+    height: 95vh;
     margin: 0 auto;  
     text-align: justify;
     overflow: auto;
@@ -130,11 +117,15 @@ display: none;
     position: relative;
     margin: 10% auto;
     padding: 15px 20px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgb(17, 45, 78);
     border-radius: 40px;
     font-size: 20px;
+    color: rgb(219, 226, 239);
 
+  }
+
+  .login input{
+      border-radius: 15px;
   }
 
 /* ESTILO DO BOTÃO ENVIAR/CRIAR */
@@ -150,7 +141,7 @@ display: none;
 #tab_login_rec_senha a{
     font-size: 15px;
     text-decoration: none;
-    color: #ffff;
+    color: #F9F7F7;
 }
 /* DIV UTILIZADA PARA CENTRALIZAR O BOTÃO DA TELA DE LOGIN */
 #tab_login_btn{
@@ -173,8 +164,10 @@ display: none;
     position: relative;
     margin: 5% auto;
     padding: 15px 20px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgb(17, 45, 78);
+    /*background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);*/
+    color: rgb(219, 226, 239);
     border-radius: 40px;
     font-size: 20px;  
 }
@@ -192,12 +185,14 @@ display: none;
 }
 .form_grande input{
     width: 250px;
+    border-radius: 15px;
 }
 .form_medio{
     margin-bottom: 15px;
 }
 .form_medio input{
     width: 110px;
+    border-radius: 15px;
 }
 .form_cent_item{
     margin: 0 auto;
@@ -209,7 +204,8 @@ display: none;
     font-size: var(--font-texto);
 }
 .form_peq input{
-    width: 40px;
+    width: 45px;
+    border-radius: 5px;
 }
 .form_cent_text{
     font-size: var(--font-texto);
@@ -222,7 +218,7 @@ form textarea{
     display: block;
     margin: 0 auto;
     margin-bottom: 15px;
-}    
+} 
 /* CENTRALIZA O BOTÃO "CRIAR" */
 #form_btnCriar{
     margin: 0 auto;
@@ -231,14 +227,14 @@ form textarea{
 }
 /*---------------------------------------------------------------------------------------------------------*/
 
-/******************************************** PÁGINA DE REGISTRO ******************************************/
+/******************************************** PÁGINA DE BUSCA ******************************************/
 .vagas_box{
     
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgb(17, 45, 78);
     margin-top: 20%;
     border-radius: 40px;
     padding: 10px;
+    color: rgb(219, 226, 239);
 }
 .form_vagas{
     margin: 0 auto;
@@ -249,6 +245,7 @@ form textarea{
     width: 20vw;
     border-radius: 15px;
 }
+
 /*---------------------------------------------------------------------------------------------------------*/
 
 /******************************************** PÁGINA DO CLIENTE ******************************************/
@@ -276,6 +273,7 @@ form textarea{
     margin: 0 auto;
     background-color: #ffff;
     margin-top: 1%;
+    padding: 1%;
 }
 .dados_cliente input{
     border: none;
@@ -285,7 +283,7 @@ form textarea{
     font-size: var(--font-link);
 }
 .dados_cliente img{
-    width: 100px;
+    width: clamp(5rem, 20vw + 0.1rem, 10rem);
 }
 #dados_cliente_nome{
     font-weight: bold;
@@ -294,12 +292,32 @@ form textarea{
     font-size: clamp(1rem, 3.2vw + 0.1rem, 2.5rem);
     text-align: center;
 }
-#meses{
+#idade{
     width: 17vw;
 }
 #cpf{
-    width: 25vw;
+    width: 29vw;
 }
 #tel{
-    width: 25vw;
+    width: 31vw;
+}
+#email{
+    width: clamp(14rem, 37vw + 0.3rem, 37vw);
+}
+#cliente_social_img{
+    width: 3vw;
+}
+#linkedin, #github{
+    width: 20vw;
+}
+.dados_cliente2 button{
+    width: clamp(5rem, 20vw + 0.1rem, 10rem);
+    background-color: rgb(63, 114, 175);
+    border: none;
+    border-radius: 15px;
+}
+.dados_cliente2 a{
+    text-decoration: none;
+    font-size: var(--font-texto);
+    color: rgb(249, 247, 247);
 }
