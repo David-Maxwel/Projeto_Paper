@@ -101,13 +101,25 @@ body{
 
 /* DEFINE AS CONFIGURAÇÕES DA DIV QUE RECEBERA OS CONTEÚDOS DA PÁGINA */
 .conteudo_pag{
-    width: 85vw;
     height: 95vh;
     margin: 0 auto;  
     text-align: justify;
     overflow: auto;
     padding-right: 10px ;
 }
+/****************************************** PÁGINA HOME ********************************************/
+.pag_home{
+    width: 85vw;
+    margin: 0 auto;
+}
+/*************************************************************************************************/
+
+/****************************************** QUEM SOMOS ********************************************/
+.pag_sobre{
+    width: 85vw;
+    margin: 0 auto;
+}
+/*************************************************************************************************/
 
 /************************************* PÁGINA DE LOGIN ***********************************/
 
@@ -231,10 +243,12 @@ form textarea{
 .vagas_box{
     
     background: rgb(17, 45, 78);
+    margin: 0 auto;
     margin-top: 20%;
     border-radius: 40px;
     padding: 10px;
     color: rgb(219, 226, 239);
+    width: 85vw;
 }
 .form_vagas{
     margin: 0 auto;
@@ -245,10 +259,18 @@ form textarea{
     width: 20vw;
     border-radius: 15px;
 }
+#vagas_btn{
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 130px;
+}
+
 
 /*---------------------------------------------------------------------------------------------------------*/
 
 /******************************************** PÁGINA DO CLIENTE ******************************************/
+
 .cliente_sair_editar a{
     text-decoration:  none;
     font-size: var(--font-link);
@@ -274,6 +296,8 @@ form textarea{
     background-color: #ffff;
     margin-top: 1%;
     padding: 1%;
+    width: max(95vw, 30rem);
+
 }
 .dados_cliente input{
     border: none;
@@ -287,37 +311,57 @@ form textarea{
 }
 #dados_cliente_nome{
     font-weight: bold;
-    width: 60vw;
+    width: 70vw;
     margin: 0 auto;
     font-size: clamp(1rem, 3.2vw + 0.1rem, 2.5rem);
     text-align: center;
 }
 #idade{
-    width: 17vw;
+    width: clamp(60px, 15vw + 0.1rem, 300px);
+    text-align: right;
 }
 #cpf{
-    width: 29vw;
+    width: 24vw;
+    max-width: 450px;
+    text-align: right;
 }
 #tel{
-    width: 31vw;
+    width: 24vw;
+    max-width: 450px;
+    text-align: right;
 }
 #email{
-    width: clamp(14rem, 37vw + 0.3rem, 37vw);
+    width: clamp(13rem, 37vw + 0.3rem, 1000px);
+    text-align: center;
 }
 #cliente_social_img{
     width: 3vw;
 }
+#tab_social{
+    margin-left: min(1rem, 200px);
+}
 #linkedin, #github{
     width: 20vw;
+    text-align: left;
 }
-.dados_cliente2 button{
+.dados_cliente button{
     width: clamp(5rem, 20vw + 0.1rem, 10rem);
     background-color: rgb(63, 114, 175);
     border: none;
     border-radius: 15px;
 }
-.dados_cliente2 a{
+.dados_cliente a{
     text-decoration: none;
     font-size: var(--font-texto);
     color: rgb(249, 247, 247);
+}
+/*
+Informações Profissionais
+*/
+
+#dados_cliente_inf_prof_tit{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: var(--font-link);
 }

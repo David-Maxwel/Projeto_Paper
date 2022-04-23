@@ -53,7 +53,7 @@
         </table>
         <table id="form_btnCriar" class="form_esp_linha">
                 <tr>
-                    <td><input class="btn_submit" type="submit" value="Pesquisar"></td>
+                    <td><input id="vagas_btn" type="submit" value="Pesquisar"></td>
                 </tr>
             </table>
     </form>

@@ -14,26 +14,26 @@
         <td>
             <table>
                 <tr>
-                    <th><input id="dados_cliente_nome" type="text" name="nome" value="João Maria dos Santos" disabled></th>          
+                    <th><input id="dados_cliente_nome" type="text" name="nome" value="Meu Nome Completo Aqui" disabled></th>          
                 </tr>
             </table>
             <table>
                 <tr>
                     <td><input id="idade" type="text" name="idade" value="xx Anos" disabled></td>
-                    <td><input id="cpf" type="text" name="cpf" value="000.000.000-00" disabled></td>
-                    <td><input id="tel" type="text" name="tel" value="(99) 99999-9999" disabled></td>
+                    <td><input id="cpf" type="text" name="cpf" value="000.000.000-00" disabled ></td>
+                    <td><input id="tel" type="text" name="tel" value="(99) 99999-9999" disabled ></td>
                 </tr>               
             </table>           
         </td>
     </tr>
-    <tr class="dados_cliente2">
+    <tr>
         <td><button><a href="">Alterar Foto</a></button></td>
         <td>
             <table>
                 <tr>
-                    <td><input id="email" type="email" name="email" value="insira.email@dominio.com.br" disabled></td>
+                    <td><input id="email" type="email" name="email" value="insira.email@dominio.com.br" disabled ></td>
                     <td>
-                        <table>
+                        <table id="tab_social">
                             <tr>
                                 <td><img id="cliente_social_img" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin"></td>
                                 <td><input id="linkedin" type="text" name="linkedin" value="linkedin_user" disabled></td>
@@ -49,3 +49,9 @@
         </td>   
     </tr>
 </table>
+<table class="dados_cliente">
+    <tr id="dados_cliente_inf_prof_tit">
+        <th>Informações Profissionais</th>
+    </tr>
+</table>
+    
