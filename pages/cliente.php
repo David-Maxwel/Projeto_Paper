@@ -1,12 +1,4 @@
-<div>
-    <table class="cliente_sair_editar">
-        <tr>
-            <td><button><a href="">Editar</a></button></td>
-            <td></td>
-            <td><button><a href="#login">Sair</a></button></td>
-        </tr>
-    </table>
-</div>
+
 
 <table class="dados_cliente">
     <tr>
@@ -27,7 +19,18 @@
         </td>
     </tr>
     <tr>
-        <td><button><a href="">Alterar Foto</a></button></td>
+        <td>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">Alterar Foto</a>
+                    <a href="#">Editar Perfil</a>
+                    <a href="#">Minhas Vagas</a>
+                    <a href="#">Notificações</a>
+                    <a href="#/login">Sair</a>
+                </div>
+            </div>
+        </td>
         <td>
             <table>
                 <tr>
@@ -49,9 +52,143 @@
         </td>   
     </tr>
 </table>
-<table class="dados_cliente">
+<table class="dados_cliente" id="add_esp_form">
     <tr id="dados_cliente_inf_prof_tit">
-        <th>Informações Profissionais</th>
+        <th>INFORMAÇÕES PROFISSIONAIS</th>
+    </tr>
+    <tr>
+        <table class="dados_cliente" id="rmv_esp_form">
+            <tr id="dados_cliente_texto_ngt">
+                <th>Tempo de experiência</th>  
+                <th>Senioridade</th>
+                <th>Tipo de Dev.</th>            
+            </tr>
+            <tr>
+                <td><input id="ipt_peq" type="tel" placeholder="meses"  maxlength="3" value="000" disabled> Meses</td>
+                <td>
+                    <select name="senioridade">
+                        <option value="junior">Junior</option>
+                        <option value="pleno">Pleno</option>
+                        <option value="senior">Sênior</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="tipo_dev">
+                        <option value=""></option>
+                        <option value="front">Front-End</option>
+                        <option value="back">Back-End</option>
+                        <option value="full">Fullstack</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </tr>
+    <tr>
+        <table class="dados_cliente" id="rmv_esp_form">
+            <tr id="dados_cliente_texto_ngt_center">
+                <th>Tecnologias que possui experiência</th>
+            </tr>
+        </table>
+        <table class="dados_cliente" id="rmv_esp_form">
+            <tr id="dados_cliente_texto">
+                <td><input type="checkbox"></td>
+                <td>Angular</td>
+                <td><input type="checkbox"></td>
+                <td>AWS</td>
+                <td><input type="checkbox"></td>
+                <td>Bootstrap</td>
+                <td><input type="checkbox"></td>
+                <td>C</td>
+            </tr>
+            <tr id="dados_cliente_texto">
+                <td><input type="checkbox"></td>
+                <td>C#</td>
+                <td><input type="checkbox"></td>
+                <td>C++</td>
+                <td><input type="checkbox"></td>
+                <td>CSS</td>
+                <td><input type="checkbox"></td>
+                <td>Flutter</td>
+            </tr>
+            <tr id="dados_cliente_texto">
+                <td><input type="checkbox"></td>
+                <td>Go</td>
+                <td><input type="checkbox"></td>
+                <td>HTML</td>
+                <td><input type="checkbox"></td>
+                <td>JAVA</td>
+                <td><input type="checkbox"></td>
+                <td>JavaScript</td>
+            </tr>
+            <tr id="dados_cliente_texto">
+                <td><input type="checkbox"></td>
+                <td>Kotlin</td>
+                <td><input type="checkbox"></td>
+                <td>MariaDB</td>
+                <td><input type="checkbox"></td>
+                <td>MS SQL</td>
+                <td><input type="checkbox"></td>
+                <td>MySQL</td>
+            </tr>
+            <tr id="dados_cliente_texto">
+                <td><input type="checkbox"></td>
+                <td>Oracle</td>
+                <td><input type="checkbox"></td>
+                <td>PHP</td>
+                <td><input type="checkbox"></td>
+                <td>PostgreSQL</td>
+                <td><input type="checkbox"></td>
+                <td>Python</td>
+            </tr>
+
+            <tr id="dados_cliente_texto">
+                <td><input type="checkbox"></td>
+                <td>React</td>
+                <td><input type="checkbox"></td>
+                <td>React Native</td>
+                <td><input type="checkbox"></td>
+                <td>Ruby</td>
+                <td><input type="checkbox"></td>
+                <td>Rust</td>
+            </tr>  
+            <tr id="dados_cliente_texto">   
+                <td><input type="checkbox"></td>
+                <td>Swift</td>
+                <td><input type="checkbox"></td>
+                <td>TypeScript</td>
+                <td><input type="checkbox"></td>
+                <td>Vue.js</td>
+                <td><input type="checkbox"></td>
+                <td>Outros...</td>
+            </tr>
+        </table>
+    </tr>
+    <tr>
+        <table class="dados_cliente" id="rmv_esp_form">
+            <tr id="dados_cliente_texto_ngt_center">
+                <th>Anexar Currículo</th>
+            </tr>
+        </table>
+        <table class="dados_cliente" id="rmv_esp_form">
+            <tr id="dados_cliente_texto">
+                <td><input type="file"></td>
+            </tr>
+        </table>
+    </tr>
+    <tr>
+        <table class="dados_cliente" id="rmv_esp_form">
+            <tr class="form_cent_text">
+                <th>Conte-nos um pouco sobre você</th>
+            </tr>
+        </table>
+        <table class="dados_cliente" id="rmv_esp_form">
+            <tr>
+                <td><textarea name="" id="" rows="10"></textarea></td>
+            </tr>
+        </table>
     </tr>
 </table>
+<footer class="rodapé">
+
+</footer>
     

@@ -1,4 +1,3 @@
-
 // Aqui declaramos o módulo, que é ligado 
 // ao HTML através da diretiva ng-app 
 var app = angular.module("app", ["ngRoute"]); 
@@ -8,15 +7,13 @@ var app = angular.module("app", ["ngRoute"]);
 app.config(function($routeProvider)
 { 
     $routeProvider.when("/", {  
-        templateUrl: "pages/home.php" 
+        templateUrl: "pages/home.php"
     }).when("/login", { 
         templateUrl:"pages/login.php" 
     }).when("/cadastro", { 
         templateUrl:"pages/cadastro.php" 
     }).when("/rec_senha", { 
         templateUrl:"pages/rec_senha.php" 
-    }).when("/sobre", { 
-        templateUrl:"pages/sobre.php" 
     }).when("/vagas", { 
         templateUrl:"pages/vagas.php" 
     }).when("/cliente", { 
@@ -42,10 +39,11 @@ function validarSenha() {
   }
 
 function myFunction() {
-var x = document.getElementById("myTopnav");
-if (x.className === "topnav") {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
     x.className += " responsive";
-} else {
+    } else {
     x.className = "topnav";
+    }
 }
-}
+//------------------------------------------------------------------//
