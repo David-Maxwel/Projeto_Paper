@@ -8,13 +8,14 @@
         <script src="lib/angularjs/angular-route.js"></script> 
         <!--***********************************************************************-->
         <script src="js/app.js"></script> 
+        <script src="js/home_page.js"></script> 
         <title>Nome da Empresa</title>
     </head>
     <!--Inicia a tag body, e aponta o ng-app para a diretiva do Angular criada no JS-->
     <body ng-app ="app">
         <!--div onde contem a box do menu e todos os seus links-->
         <div class="topnav" id="myTopnav">
-            <a href="#/" class="active">&ltn&gt</a>
+            <a href="#/" class="active" >&ltn&gt</a>
             <a href="#cadastro">Cadastro</a>
             <a href="#login">Login</a>
             <a href="#vagas">Buscar Vagas</a>
@@ -29,7 +30,7 @@
         </nav>
         <!--Div principal, onde será carregado as demais páginas.-->
         <div class="conteudo_pag" ng-view>
-
+            
         </div>
 
     </body>

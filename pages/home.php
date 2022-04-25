@@ -1,4 +1,4 @@
-<div class="pag_home_top">
+<!--<div class="pag_home_top">
   <div class="home_slogan">
     <img class="slogan_img" src="img\slogan.png" alt=""> 
     <p class="slogan_texto">É novo por aqui? Realize seu cadasdro gratuitamente clicando <a href="#cadastro">aqui</a>!
@@ -19,4 +19,10 @@
     Nosso objetivo é trazer as oportunidades de emprego para perto dos nossos clientes, e facilitar a comunicação deles com as empresas contratantes.</p>
   </div>
   
+</div>-->
+
+<div class="home_page">
+  <section>
+    <h1 id="text"></h1>
+  </section>
 </div>

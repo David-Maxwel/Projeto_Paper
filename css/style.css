@@ -109,6 +109,18 @@ body{
     padding-right: 10px ;
 }
 /****************************************** PÁGINA HOME ********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.home_page{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(https://alexrosa.net/wp-content/uploads/2016/07/wallpaper_1366x768_book-1.jpg);
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: 95vh;
+    margin: 0 auto;
+    font-family: 'Special Elite', cursive;
+    font-size: 2em;
+    padding: 1em;
+}
+
 .pag_home_top{
     width: 90vw;
     padding: 20px;
@@ -118,6 +130,10 @@ body{
     box-shadow: 5px 10px rgba(14, 60, 116, 0.486);
     border-radius: 20px;
 
+}
+#text{
+    font-size: 45px;
+    color: red;
 }
 .home_slogan{
     display: grid;
