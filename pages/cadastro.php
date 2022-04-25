@@ -61,11 +61,6 @@
                 </tr>
             </table>            
             <br>            
-            <div class="form_cent_text">
-                <h2>Conte-nos um pouco sobre você</h2>
-            </div>
-            <textarea name="" id="" rows="10"></textarea>
-            <br>
             <table id="form_btnCriar" class="form_esp_linha">
                 <tr>
                     <td><input class="btn_submit" type="submit" value="Cadastrar" onclick="return validarSenha()"></td>

@@ -17,7 +17,9 @@ app.config(function($routeProvider)
     }).when("/vagas", { 
         templateUrl:"pages/vagas.php" 
     }).when("/cliente", { 
-        templateUrl:"pages/cliente.php" 
+        templateUrl:"pages/cliente.php"
+    }).when("/faq", { 
+        templateUrl:"pages/faq.php"  
     }).otherwise({ 
         redirectTo: "/" 
     }); 
