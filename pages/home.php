@@ -20,9 +20,11 @@
   </div>
   
 </div>-->
-
 <div class="home_page">
   <section>
-    <h1 id="text"></h1>
+    <h2>&ltNearby&gt</h2>
+    <h1 class="titulo-principal">Trazendo as oportunidades para próximo de você.</h1>
   </section>
 </div>
+
+

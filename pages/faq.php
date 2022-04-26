@@ -24,6 +24,7 @@
     <details>
         <summary>Como me tornar um programador?</summary>
         <p>Existem várias maneiras para se tornar um programador, uma delas é iniciar em um dos diversos cursos na área de tecnologia. Entretanto, não é obrigatório ter uma formação, então você pode optar por aprender de forma autodidata.</p>
+        <br>
         <p>Fonte: <a href="https://www.digitalhouse.com/br/blog/faculdade-para-ser-programador/#:~:text=Para%20quem%20quer%20se%20tornar,Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%2C%20por%20exemplo">www.digitalhouse.com</a></p>
     </details>
     <details>
@@ -35,12 +36,13 @@
         <summary>Vale a pena iniciar na programação depois dos 30?</summary>
         <p>Quando observamos o mercado de tecnologia, vemos que a grande maioria da galera que está entrando nele são jovens, e isso pode fazer com que as pessoas mais velhas fiquem com receio de entrar nesse meio. Mas sim, vale a pena iniciar depois dos 30 ou de qualquer idade.</p>
         <p>Geralmente as empresas quando vão contratar um analista, programador, ou alguem de qualquer outra área de T.I., buscam por pessoas profissionalmente qualificadas, e não necessariamente por jovens.</p>
+        <br>
         <p>Fonte: <a href="https://uilblognews.com/programador-depois-dos-30/">Programador depois dos 30</a></p>
     </details>
     <details>
         <summary>Curso livre ou faculdade, Qual escolher para entrar em T.I.? </summary>
-        <p>A resposta pra essa pergunta é um pouco pessoal, pois vai depender das suas necessidades, e dos seus objetivos. Cada um tem suas vantagens, e para saber mais sobre elas, basta acessar o link à seguir, e ver qual a melhor opção para o seu perfil. </p>
-        <a href="https://becode.com.br/carreira-ti-cursos-ou-faculdade/#:~:text=A%20faculdade%20%C3%A9%20a%20melhor,com%20pol%C3%ADticas%20r%C3%ADgidas%20de%20recrutamento">Curso livre ou Faculdade?</a>
+        <p>A resposta pra essa pergunta é um pouco pessoal, pois vai depender das suas necessidades, e dos seus objetivos. Cada um tem suas vantagens, e para saber mais sobre elas, basta acessar o link à seguir, e ver qual a melhor opção para o seu perfil.
+        <a href="https://becode.com.br/carreira-ti-cursos-ou-faculdade/#:~:text=A%20faculdade%20%C3%A9%20a%20melhor,com%20pol%C3%ADticas%20r%C3%ADgidas%20de%20recrutamento">Curso livre ou Faculdade?</a></p>
     </details>
     <details>
         <summary>Sou iniciante na programação, qual a primeira linguagem para eu aprender?</summary>
@@ -48,6 +50,7 @@
         <p>Após aprender lógica, se você ainda não souber qual área da programação quer seguir, sugiro aprender HTML e CSS, que são a base para uma página web. O HTML é uma linguagem utilizada para estruturar as páginas web, e o CSS é utilizado para dar o estilo dessa página. </p>
         <p>Por que HTML e CSS?</p>
         <p>São fáceis de aprender, não requer um hardware muito bom para começar a desenvolver, já que você precisará apenas de um bloco de notas e um navegador (mas é recomendável utilizar outros programas no lugar do bloco de notas), e dá pra criar muitas coisas apenas com essas duas tecnologias.</p>
+        <br>
         <p>Fonte: <a href="https://www.digitalhouse.com/br/blog/linguagem-de-programacao-para-iniciantes/">Linguagem de programação para iniciantes</a></p>
     </details>
 </div>
