@@ -45,7 +45,7 @@
         <a href="https://becode.com.br/carreira-ti-cursos-ou-faculdade/#:~:text=A%20faculdade%20%C3%A9%20a%20melhor,com%20pol%C3%ADticas%20r%C3%ADgidas%20de%20recrutamento">Curso livre ou Faculdade?</a></p>
     </details>
     <details>
-        <summary>Sou iniciante na programação, qual a primeira linguagem para eu aprender?</summary>
+        <summary>Sou iniciante na programação, qual a primeira linguagem para aprender?</summary>
         <p>Se você é iniciante, e não conhece nada de programação, a primeira coisa a aprender deveria ser lógica de programação. Com ela você terá uma base para entender as linguagens futuramente.</p>
         <p>Após aprender lógica, se você ainda não souber qual área da programação quer seguir, sugiro aprender HTML e CSS, que são a base para uma página web. O HTML é uma linguagem utilizada para estruturar as páginas web, e o CSS é utilizado para dar o estilo dessa página. </p>
         <p>Por que HTML e CSS?</p>
