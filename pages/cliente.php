@@ -177,7 +177,7 @@
     </tr>
     <tr>
         <table class="dados_cliente" id="rmv_esp_form">
-            <tr class="form_cent_text">
+            <tr id="dados_cliente_texto_ngt_center">
                 <th>Conte-nos um pouco sobre você</th>
             </tr>
         </table>
