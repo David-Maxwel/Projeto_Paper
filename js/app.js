@@ -16,7 +16,7 @@ app.config(function($routeProvider)
         templateUrl:"pages/rec_senha.php" 
     }).when("/vagas", { 
         templateUrl:"pages/vagas.php" 
-    }).when("/cliente", { 
+    }).when("/usuario", { 
         templateUrl:"pages/cliente.php"
     }).when("/faq", { 
         templateUrl:"pages/faq.php"  

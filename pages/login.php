@@ -16,7 +16,7 @@
         <br>
         <table id="tab_login_btn">
             <tr>
-                <td><a href="#cliente"><input class="btn_submit" type="submit" value="Entrar"></a></td>                        
+                <td><a href="#usuario"><input class="btn_submit" type="submit" value="Entrar"></a></td>                        
             </tr>
         </table> 
     </form>     
